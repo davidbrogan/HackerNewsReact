@@ -7,7 +7,7 @@ import Home from './Components/Home';
 
 function App() {
   const [posts, setPosts] = React.useState([]);
-  const [noPosts, setNoPosts] = React.useState(10);
+  const [noPosts, setNoPosts] = React.useState(20);
 
     React.useEffect(() => {
      
